@@ -1,0 +1,17 @@
+IMAGES = {
+    "Lion": "https://t3.ftcdn.net/jpg/00/58/80/86/240_F_58808616_vyt64VTLkmLpYUjmZvQm80y2slTF0E5m.jpg",
+    "Dauphin": "https://t3.ftcdn.net/jpg/20/59/06/02/240_F_2059060254_F7xVfezVQXjKTrHdOPGizz5ZO1AkPUGa.jpg",
+    "Panda": "https://t4.ftcdn.net/jpg/06/26/63/51/240_F_626635134_hvXqFnobAGIILl9rS7F1GKpwAajymcIZ.jpg",
+    "Éléphant": "https://t4.ftcdn.net/jpg/15/22/52/25/240_F_1522522523_hU7Avsde3berHng1apU1mofI74PXOujG.jpg",
+    "Pingouin": "https://t3.ftcdn.net/jpg/05/68/69/54/240_F_568695489_sqA4Z8TGusaGRa6bziH34IJA3BMe5UX3.jpg",
+    "Girafe": "https://t4.ftcdn.net/jpg/02/79/17/53/240_F_279175342_gU5aKV1pwtQMBOdOSPZsqB6EGgbgUnP0.jpg",
+    "Tigre": "https://t3.ftcdn.net/jpg/06/46/09/60/240_F_646096089_ByufrwTYzcm5tOac8hB3N89lji7nhnt6.jpg",
+    "Loup": "https://t3.ftcdn.net/jpg/06/28/29/22/240_F_628292242_zIpF1yBg0vqfX8lTGMkbxKSHT2JjBZV2.jpg",
+    "Ours polaire": "https://t4.ftcdn.net/jpg/01/96/02/37/240_F_196023721_n7xBw2yKR5p1wh4CzBemlSPQRrkyg8oK.jpg",
+    "Requin": "https://t4.ftcdn.net/jpg/02/11/72/41/240_F_211724169_Vo543ZuLt6ZHA28zKzteese37RhZo6zA.jpg",
+    "Aigle": "https://t3.ftcdn.net/jpg/02/16/80/70/240_F_216807010_8TqfrtWcLPRUjztW6SM5L2AUP33dnh4m.jpg",
+    "Kangourou": "https://t3.ftcdn.net/jpg/00/23/97/68/240_F_23976825_iT567NmdHwrekKMIdNJy3nUR0fMaHSep.jpg",
+    "Koala": "https://t4.ftcdn.net/jpg/06/10/60/09/240_F_610600988_KiSasQ8IUpFzJOBXaUriIsz9NVBaqKEA.jpg",
+    "Crocodile": "https://t3.ftcdn.net/jpg/01/83/74/50/240_F_183745067_ObvKmYdVdXpfyRHNSMbaKIvqH5pTX8Om.jpg",
+    "Tortue": "https://t4.ftcdn.net/jpg/06/91/45/65/240_F_691456514_GZhM3rajgh66mG2kDsj022yD6dJed5HX.jpg",
+}

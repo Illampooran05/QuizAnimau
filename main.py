@@ -6,8 +6,10 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 
+
 from animaux import ANIMAUX, trouver_animal, normaliser
 from questions import QUESTIONS
+from image import IMAGES
 from stockage import charger, sauvegarder, FICHIER_SCORES
 
 load_dotenv()
@@ -112,7 +114,6 @@ async def on_command_error(ctx, erreur):
 @bot.event
 async def on_ready():
     # Envoie les commandes slash a Discord au demarrage.
-    await bot.tree.sync()
     print(f"Connecte en tant que {bot.user}")
 
 
@@ -129,10 +130,7 @@ async def ping(ctx):
     await ctx.send("Pong !")
 
 
-# Commande slash : /salut
-@bot.tree.command(name="salut", description="Le bot te dit bonjour")
-async def salut(interaction: discord.Interaction):
-    await interaction.response.send_message(f"Salut {interaction.user.mention} !")
+
 
 
 @bot.command(name="regles", aliases=["règles", "regle", "aide", "help"])
@@ -164,6 +162,9 @@ async def animal(ctx, *, nom=None):
     )
     embed.add_field(name="Habitat", value=trouve["habitat"], inline=True)
     embed.add_field(name="Régime", value=trouve["regime"], inline=True)
+    image = IMAGES.get(trouve["nom"])
+    if image:
+        embed.set_image(url=image)
     await ctx.send(embed=embed)
 
 
